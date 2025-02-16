@@ -1,0 +1,25 @@
+[project]
+name = "nipsapplication"
+version = "0.1.0"
+description = "NeurIPS Paper Scraper"
+authors = [
+    {name = "gellahi", email = "gellahi.dev@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp",
+    "beautifulsoup4",
+    "aiofiles",
+    "tqdm",
+    "pandas",
+    "certifi (>=2025.1.31,<2026.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "nipsapplication" }]
+package-mode = false
