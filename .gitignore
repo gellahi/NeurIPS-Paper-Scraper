@@ -1,0 +1,33 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore downloaded PDFs
+downloaded_pdfs/
+
+# Ignore CSV files
+*.csv
+
+# Ignore log files
+*.log
+
+# Ignore poetry lock file
+poetry.lock
+
+# Ignore other temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
